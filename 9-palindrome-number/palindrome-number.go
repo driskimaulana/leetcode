@@ -1,8 +1,5 @@
 func isPalindrome(x int) bool {
   xString := strconv.Itoa(x)
-	if(len(xString) < 2) {
-		return true
-	} 
 
 	xRunes := []rune(xString)
 	j := len(xRunes) - 1
